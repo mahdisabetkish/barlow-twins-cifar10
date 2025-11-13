@@ -51,7 +51,7 @@ The training process is a two-step procedure.
 This will train the ResNet-18 encoder using the Barlow Twins method and save the trained backbone weights to `checkpoints/barlow_twins_backbone.pth`.
 
 ```bash
-python scripts/pretrain.py --epochs 100 --batch_size 256
+python scripts/pretrain.py --epochs 10 --batch_size 256
 ```
 *You can adjust the number of epochs and batch size as needed.*
 
