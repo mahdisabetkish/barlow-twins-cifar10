@@ -7,9 +7,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "barlow-twins-impl"
 version = "0.1.0"
-description = "A from-scratch implementation of the Barlow Twins self-supervised learning method."
+description = "A from-scratch implementation of Barlow Twins for self-supervised learning on CIFAR-10."
 authors = [
-  { name = "Mahdi Sabet Kish", email = "mahdi.sabetkish@gmail.com" }, # Add your email
+  { name = "Mahdi Sabet Kish", email = "mahdi.sabetkish@gmail.com" }, 
 ]
 readme = "README.md"
 requires-python = ">=3.9"
@@ -19,14 +19,13 @@ classifiers = [
 ]
 
 # === Core Dependencies ===
-# These are needed for the project to run.
 dependencies = [
     "torch",
     "torchvision",
     "numpy",
-    "tqdm",          # For nice progress bars during training
-    "scikit-learn",  # For the linear evaluation part
-    "matplotlib",    # For plotting results
+    "tqdm",          
+    "scikit-learn",  
+    "matplotlib",    
 ]
 
 # === Optional/Development Dependencies ===
