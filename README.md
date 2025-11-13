@@ -67,8 +67,8 @@ python scripts/evaluate.py --epochs 50
 
 After running the full pipeline, the expected accuracy demonstrates the effectiveness of the self-supervised representations.
 
-*   **Pre-training Epochs:** 100
+*   **Pre-training Epochs:** 10
 *   **Evaluation Epochs:** 50
-*   **Final Test Accuracy:** [Add your result here, e.g., 85.12%]
+*   **Final Test Accuracy:** 53.04%
 
 This project serves as a practical demonstration of implementing a modern self-supervised learning paper and structuring a deep learning project in a clean, reproducible, and professional manner.
