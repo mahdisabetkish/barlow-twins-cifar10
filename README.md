@@ -26,8 +26,8 @@ barlowtwins/
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/barlowtwins.git
-    cd barlowtwins
+     git clone https://github.com/mahdisabetkish/barlow-twins-cifar10.git
+     cd barlow-twins-cifar10
     ```
 
 2.  **Create and activate a virtual environment:**
