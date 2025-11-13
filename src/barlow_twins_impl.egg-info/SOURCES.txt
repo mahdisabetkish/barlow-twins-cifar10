@@ -1,0 +1,6 @@
+pyproject.toml
+src/barlow_twins_impl.egg-info/PKG-INFO
+src/barlow_twins_impl.egg-info/SOURCES.txt
+src/barlow_twins_impl.egg-info/dependency_links.txt
+src/barlow_twins_impl.egg-info/requires.txt
+src/barlow_twins_impl.egg-info/top_level.txt

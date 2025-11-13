@@ -1,0 +1,50 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "barlow-twins-impl"
+version = "0.1.0"
+description = "A from-scratch implementation of the Barlow Twins self-supervised learning method."
+authors = [
+  { name = "Mahdi Sabet Kish", email = "mahdi.sabetkish@gmail.com" }, # Add your email
+]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# === Core Dependencies ===
+# These are needed for the project to run.
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "tqdm",          # For nice progress bars during training
+    "scikit-learn",  # For the linear evaluation part
+    "matplotlib",    # For plotting results
+]
+
+# === Optional/Development Dependencies ===
+# These are for you, the developer (linting, formatting, notebooks).
+[project.optional-dependencies]
+dev = [
+    "ruff",          # The linter and formatter
+    "jupyterlab",    # For experiments and visualization
+    "pytest",        # For any tests you might write
+]
+
+# === Tool Configuration ===
+# Configure ruff to format and lint your code consistently.
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"] # Standard rules: pycodestyle, pyflakes, isort, bugbear
+
+[tool.ruff.format]
+quote-style = "double"

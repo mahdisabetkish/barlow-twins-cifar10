@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: barlow-twins-impl
+Version: 0.1.0
+Summary: A from-scratch implementation of the Barlow Twins self-supervised learning method.
+Author-email: Mahdi Sabet Kish <mahdi.sabetkish@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: jupyterlab; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
